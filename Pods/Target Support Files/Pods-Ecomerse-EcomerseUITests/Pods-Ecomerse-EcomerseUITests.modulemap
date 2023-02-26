@@ -1,0 +1,6 @@
+framework module Pods_Ecomerse_EcomerseUITests {
+  umbrella header "Pods-Ecomerse-EcomerseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5909FC8FA051148FE1E3E4E4 /* Pods_EcomerseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DD4A165E87E45CA39A05B /* Pods_EcomerseTests.framework */; };
+		5CD75C235067AFFDB6010D32 /* Pods_Ecomerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F18316E665F36D7C4C6E6B /* Pods_Ecomerse.framework */; };
+		9DC0CDB129A9007F00E19921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDB029A9007F00E19921 /* AppDelegate.swift */; };
+		9DC0CDB329A9007F00E19921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDB229A9007F00E19921 /* SceneDelegate.swift */; };
+		9DC0CDB829A9007F00E19921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0CDB629A9007F00E19921 /* Main.storyboard */; };
+		9DC0CDBA29A9008100E19921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0CDB929A9008100E19921 /* Assets.xcassets */; };
+		9DC0CDBD29A9008100E19921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0CDBB29A9008100E19921 /* LaunchScreen.storyboard */; };
+		9DC0CDC829A9008200E19921 /* EcomerseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDC729A9008200E19921 /* EcomerseTests.swift */; };
+		9DC0CDD229A9008200E19921 /* EcomerseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDD129A9008200E19921 /* EcomerseUITests.swift */; };
+		9DC0CDD429A9008200E19921 /* EcomerseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDD329A9008200E19921 /* EcomerseUITestsLaunchTests.swift */; };
+		9DC0CDE429A9039200E19921 /* HomaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDE329A9039200E19921 /* HomaModel.swift */; };
+		9DC0CDE629A905ED00E19921 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDE529A905ED00E19921 /* HomeVC.swift */; };
+		9DC0CDE829A9061300E19921 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDE729A9061300E19921 /* HomeViewModel.swift */; };
+		9DC0CDEA29A906BB00E19921 /* WebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDE929A906BB00E19921 /* WebServiceHandler.swift */; };
+		9DC0CDEC29A9108600E19921 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDEB29A9108600E19921 /* CategoryCollectionViewCell.swift */; };
+		9DC0CDEE29A9262400E19921 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0CDED29A9262400E19921 /* BannerCollectionViewCell.swift */; };
+		9DC171AA29AA430300394ADC /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC171A929AA430300394ADC /* ProductsCollectionViewCell.swift */; };
+		D89501757197AD0081ACBBF7 /* Pods_Ecomerse_EcomerseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3C2E2D524B1534965C3896 /* Pods_Ecomerse_EcomerseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC0CDC429A9008200E19921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC0CDA529A9007F00E19921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC0CDAC29A9007F00E19921;
+			remoteInfo = Ecomerse;
+		};
+		9DC0CDCE29A9008200E19921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC0CDA529A9007F00E19921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC0CDAC29A9007F00E19921;
+			remoteInfo = Ecomerse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037774266F19E51CD52D5294 /* Pods-Ecomerse-EcomerseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecomerse-EcomerseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ecomerse-EcomerseUITests/Pods-Ecomerse-EcomerseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D5DD4A165E87E45CA39A05B /* Pods_EcomerseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcomerseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3794DCF2CE3AB0896079BDAF /* Pods-EcomerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomerseTests.debug.xcconfig"; path = "Target Support Files/Pods-EcomerseTests/Pods-EcomerseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		609E2227FDC5337D062A99D0 /* Pods-Ecomerse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecomerse.debug.xcconfig"; path = "Target Support Files/Pods-Ecomerse/Pods-Ecomerse.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1B22A77D81C84605B900AC /* Pods-Ecomerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecomerse.release.xcconfig"; path = "Target Support Files/Pods-Ecomerse/Pods-Ecomerse.release.xcconfig"; sourceTree = "<group>"; };
+		71BA5AD935D7FF51569806C4 /* Pods-EcomerseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomerseTests.release.xcconfig"; path = "Target Support Files/Pods-EcomerseTests/Pods-EcomerseTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DC0CDAD29A9007F00E19921 /* Ecomerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecomerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC0CDB029A9007F00E19921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC0CDB229A9007F00E19921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DC0CDB729A9007F00E19921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC0CDB929A9008100E19921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC0CDBC29A9008100E19921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC0CDBE29A9008100E19921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC0CDC329A9008200E19921 /* EcomerseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomerseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC0CDC729A9008200E19921 /* EcomerseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerseTests.swift; sourceTree = "<group>"; };
+		9DC0CDCD29A9008200E19921 /* EcomerseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomerseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC0CDD129A9008200E19921 /* EcomerseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerseUITests.swift; sourceTree = "<group>"; };
+		9DC0CDD329A9008200E19921 /* EcomerseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DC0CDE329A9039200E19921 /* HomaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomaModel.swift; sourceTree = "<group>"; };
+		9DC0CDE529A905ED00E19921 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9DC0CDE729A9061300E19921 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9DC0CDE929A906BB00E19921 /* WebServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
+		9DC0CDEB29A9108600E19921 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DC0CDED29A9262400E19921 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DC171A929AA430300394ADC /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF3C2E2D524B1534965C3896 /* Pods_Ecomerse_EcomerseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecomerse_EcomerseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D841FE7E78EA6931F264EA19 /* Pods-Ecomerse-EcomerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecomerse-EcomerseUITests.release.xcconfig"; path = "Target Support Files/Pods-Ecomerse-EcomerseUITests/Pods-Ecomerse-EcomerseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9F18316E665F36D7C4C6E6B /* Pods_Ecomerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecomerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC0CDAA29A9007F00E19921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD75C235067AFFDB6010D32 /* Pods_Ecomerse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC0CDC029A9008200E19921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5909FC8FA051148FE1E3E4E4 /* Pods_EcomerseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC0CDCA29A9008200E19921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89501757197AD0081ACBBF7 /* Pods_Ecomerse_EcomerseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90DFFEC1B8DE7A739E5D5B5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F18316E665F36D7C4C6E6B /* Pods_Ecomerse.framework */,
+				BF3C2E2D524B1534965C3896 /* Pods_Ecomerse_EcomerseUITests.framework */,
+				2D5DD4A165E87E45CA39A05B /* Pods_EcomerseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC0CDA429A9007F00E19921 = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDAF29A9007F00E19921 /* Ecomerse */,
+				9DC0CDC629A9008200E19921 /* EcomerseTests */,
+				9DC0CDD029A9008200E19921 /* EcomerseUITests */,
+				9DC0CDAE29A9007F00E19921 /* Products */,
+				D0ABDC35C219E3D5B69A5343 /* Pods */,
+				90DFFEC1B8DE7A739E5D5B5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC0CDAE29A9007F00E19921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDAD29A9007F00E19921 /* Ecomerse.app */,
+				9DC0CDC329A9008200E19921 /* EcomerseTests.xctest */,
+				9DC0CDCD29A9008200E19921 /* EcomerseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC0CDAF29A9007F00E19921 /* Ecomerse */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDE229A9030700E19921 /* ViewModels */,
+				9DC0CDE129A902FA00E19921 /* ViewControllers */,
+				9DC0CDE029A902F000E19921 /* Models */,
+				9DC0CDB029A9007F00E19921 /* AppDelegate.swift */,
+				9DC0CDB229A9007F00E19921 /* SceneDelegate.swift */,
+				9DC0CDB629A9007F00E19921 /* Main.storyboard */,
+				9DC0CDB929A9008100E19921 /* Assets.xcassets */,
+				9DC0CDBB29A9008100E19921 /* LaunchScreen.storyboard */,
+				9DC0CDBE29A9008100E19921 /* Info.plist */,
+				9DC0CDE929A906BB00E19921 /* WebServiceHandler.swift */,
+			);
+			path = Ecomerse;
+			sourceTree = "<group>";
+		};
+		9DC0CDC629A9008200E19921 /* EcomerseTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDC729A9008200E19921 /* EcomerseTests.swift */,
+			);
+			path = EcomerseTests;
+			sourceTree = "<group>";
+		};
+		9DC0CDD029A9008200E19921 /* EcomerseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDD129A9008200E19921 /* EcomerseUITests.swift */,
+				9DC0CDD329A9008200E19921 /* EcomerseUITestsLaunchTests.swift */,
+			);
+			path = EcomerseUITests;
+			sourceTree = "<group>";
+		};
+		9DC0CDE029A902F000E19921 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDE329A9039200E19921 /* HomaModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DC0CDE129A902FA00E19921 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDE529A905ED00E19921 /* HomeVC.swift */,
+				9DC0CDEB29A9108600E19921 /* CategoryCollectionViewCell.swift */,
+				9DC0CDED29A9262400E19921 /* BannerCollectionViewCell.swift */,
+				9DC171A929AA430300394ADC /* ProductsCollectionViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DC0CDE229A9030700E19921 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0CDE729A9061300E19921 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0ABDC35C219E3D5B69A5343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609E2227FDC5337D062A99D0 /* Pods-Ecomerse.debug.xcconfig */,
+				6B1B22A77D81C84605B900AC /* Pods-Ecomerse.release.xcconfig */,
+				037774266F19E51CD52D5294 /* Pods-Ecomerse-EcomerseUITests.debug.xcconfig */,
+				D841FE7E78EA6931F264EA19 /* Pods-Ecomerse-EcomerseUITests.release.xcconfig */,
+				3794DCF2CE3AB0896079BDAF /* Pods-EcomerseTests.debug.xcconfig */,
+				71BA5AD935D7FF51569806C4 /* Pods-EcomerseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC0CDAC29A9007F00E19921 /* Ecomerse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC0CDD729A9008200E19921 /* Build configuration list for PBXNativeTarget "Ecomerse" */;
+			buildPhases = (
+				86468050F387C5EC456B2391 /* [CP] Check Pods Manifest.lock */,
+				9DC0CDA929A9007F00E19921 /* Sources */,
+				9DC0CDAA29A9007F00E19921 /* Frameworks */,
+				9DC0CDAB29A9007F00E19921 /* Resources */,
+				80E85554D6B08F1A7E8E7925 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecomerse;
+			productName = Ecomerse;
+			productReference = 9DC0CDAD29A9007F00E19921 /* Ecomerse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC0CDC229A9008200E19921 /* EcomerseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC0CDDA29A9008200E19921 /* Build configuration list for PBXNativeTarget "EcomerseTests" */;
+			buildPhases = (
+				D14CB162C955255A498A3CC3 /* [CP] Check Pods Manifest.lock */,
+				9DC0CDBF29A9008200E19921 /* Sources */,
+				9DC0CDC029A9008200E19921 /* Frameworks */,
+				9DC0CDC129A9008200E19921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC0CDC529A9008200E19921 /* PBXTargetDependency */,
+			);
+			name = EcomerseTests;
+			productName = EcomerseTests;
+			productReference = 9DC0CDC329A9008200E19921 /* EcomerseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DC0CDCC29A9008200E19921 /* EcomerseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC0CDDD29A9008200E19921 /* Build configuration list for PBXNativeTarget "EcomerseUITests" */;
+			buildPhases = (
+				1ED531050A142B4ACDB9BB9E /* [CP] Check Pods Manifest.lock */,
+				9DC0CDC929A9008200E19921 /* Sources */,
+				9DC0CDCA29A9008200E19921 /* Frameworks */,
+				9DC0CDCB29A9008200E19921 /* Resources */,
+				AD7D141EEE2EA153FFE6F674 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC0CDCF29A9008200E19921 /* PBXTargetDependency */,
+			);
+			name = EcomerseUITests;
+			productName = EcomerseUITests;
+			productReference = 9DC0CDCD29A9008200E19921 /* EcomerseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC0CDA529A9007F00E19921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9DC0CDAC29A9007F00E19921 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9DC0CDC229A9008200E19921 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9DC0CDAC29A9007F00E19921;
+					};
+					9DC0CDCC29A9008200E19921 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9DC0CDAC29A9007F00E19921;
+					};
+				};
+			};
+			buildConfigurationList = 9DC0CDA829A9007F00E19921 /* Build configuration list for PBXProject "Ecomerse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC0CDA429A9007F00E19921;
+			productRefGroup = 9DC0CDAE29A9007F00E19921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC0CDAC29A9007F00E19921 /* Ecomerse */,
+				9DC0CDC229A9008200E19921 /* EcomerseTests */,
+				9DC0CDCC29A9008200E19921 /* EcomerseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC0CDAB29A9007F00E19921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC0CDBD29A9008100E19921 /* LaunchScreen.storyboard in Resources */,
+				9DC0CDBA29A9008100E19921 /* Assets.xcassets in Resources */,
+				9DC0CDB829A9007F00E19921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC0CDC129A9008200E19921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC0CDCB29A9008200E19921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED531050A142B4ACDB9BB9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecomerse-EcomerseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E85554D6B08F1A7E8E7925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecomerse/Pods-Ecomerse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecomerse/Pods-Ecomerse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecomerse/Pods-Ecomerse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86468050F387C5EC456B2391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecomerse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7D141EEE2EA153FFE6F674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecomerse-EcomerseUITests/Pods-Ecomerse-EcomerseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecomerse-EcomerseUITests/Pods-Ecomerse-EcomerseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecomerse-EcomerseUITests/Pods-Ecomerse-EcomerseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14CB162C955255A498A3CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcomerseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC0CDA929A9007F00E19921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC0CDE429A9039200E19921 /* HomaModel.swift in Sources */,
+				9DC0CDEA29A906BB00E19921 /* WebServiceHandler.swift in Sources */,
+				9DC0CDE829A9061300E19921 /* HomeViewModel.swift in Sources */,
+				9DC171AA29AA430300394ADC /* ProductsCollectionViewCell.swift in Sources */,
+				9DC0CDE629A905ED00E19921 /* HomeVC.swift in Sources */,
+				9DC0CDB129A9007F00E19921 /* AppDelegate.swift in Sources */,
+				9DC0CDEC29A9108600E19921 /* CategoryCollectionViewCell.swift in Sources */,
+				9DC0CDEE29A9262400E19921 /* BannerCollectionViewCell.swift in Sources */,
+				9DC0CDB329A9007F00E19921 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC0CDBF29A9008200E19921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC0CDC829A9008200E19921 /* EcomerseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC0CDC929A9008200E19921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC0CDD429A9008200E19921 /* EcomerseUITestsLaunchTests.swift in Sources */,
+				9DC0CDD229A9008200E19921 /* EcomerseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC0CDC529A9008200E19921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC0CDAC29A9007F00E19921 /* Ecomerse */;
+			targetProxy = 9DC0CDC429A9008200E19921 /* PBXContainerItemProxy */;
+		};
+		9DC0CDCF29A9008200E19921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC0CDAC29A9007F00E19921 /* Ecomerse */;
+			targetProxy = 9DC0CDCE29A9008200E19921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC0CDB629A9007F00E19921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC0CDB729A9007F00E19921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC0CDBB29A9008100E19921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC0CDBC29A9008100E19921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC0CDD529A9008200E19921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC0CDD629A9008200E19921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC0CDD829A9008200E19921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609E2227FDC5337D062A99D0 /* Pods-Ecomerse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ecomerse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.Ecomerse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC0CDD929A9008200E19921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1B22A77D81C84605B900AC /* Pods-Ecomerse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ecomerse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.Ecomerse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DC0CDDB29A9008200E19921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3794DCF2CE3AB0896079BDAF /* Pods-EcomerseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.EcomerseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecomerse.app/Ecomerse";
+			};
+			name = Debug;
+		};
+		9DC0CDDC29A9008200E19921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BA5AD935D7FF51569806C4 /* Pods-EcomerseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.EcomerseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecomerse.app/Ecomerse";
+			};
+			name = Release;
+		};
+		9DC0CDDE29A9008200E19921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037774266F19E51CD52D5294 /* Pods-Ecomerse-EcomerseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.EcomerseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecomerse;
+			};
+			name = Debug;
+		};
+		9DC0CDDF29A9008200E19921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D841FE7E78EA6931F264EA19 /* Pods-Ecomerse-EcomerseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.EcomerseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecomerse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC0CDA829A9007F00E19921 /* Build configuration list for PBXProject "Ecomerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC0CDD529A9008200E19921 /* Debug */,
+				9DC0CDD629A9008200E19921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC0CDD729A9008200E19921 /* Build configuration list for PBXNativeTarget "Ecomerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC0CDD829A9008200E19921 /* Debug */,
+				9DC0CDD929A9008200E19921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC0CDDA29A9008200E19921 /* Build configuration list for PBXNativeTarget "EcomerseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC0CDDB29A9008200E19921 /* Debug */,
+				9DC0CDDC29A9008200E19921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC0CDDD29A9008200E19921 /* Build configuration list for PBXNativeTarget "EcomerseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC0CDDE29A9008200E19921 /* Debug */,
+				9DC0CDDF29A9008200E19921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC0CDA529A9007F00E19921 /* Project object */;
+}

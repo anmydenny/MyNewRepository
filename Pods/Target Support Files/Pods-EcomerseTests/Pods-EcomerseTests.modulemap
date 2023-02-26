@@ -1,0 +1,6 @@
+framework module Pods_EcomerseTests {
+  umbrella header "Pods-EcomerseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
